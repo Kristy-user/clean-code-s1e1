@@ -47,17 +47,17 @@
 
 .current-task-section__list, 
 .completed-task-section__list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .list-item, .title {
-  list-style:none;
+  list-style: none;
 }
 
 .list-item__input-task, 
 .list-item__button {
-  outline:none;
+  outline: none;
 }
 
 .list-item__button,
@@ -162,14 +162,14 @@
 
 /* Edit Task */
 ul .list__list-item input[type=text] {
-  display:none;
+  display: none;
 }
 
 ul .list__list-item.edit-mode input[type=text] {
-  display:inline-block;
-  width:224px;
+  display: inline-block;
+  width: 224px;
 }
 
 ul .list__list-item.edit-mode label {
-  display:none;
+  display: none;
 }
