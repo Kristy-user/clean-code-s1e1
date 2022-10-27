@@ -10,10 +10,13 @@ body {
   display: block;
   text-align: right;
 }
+/* .todo-app {
+  width: 500px;} */
+  
 .header img {
   width: 100%;
 }
-.header .header-link {
+.header .header__link {
   font-family: fantasy, cursive;
 }
 
@@ -21,17 +24,17 @@ body {
 .header { text-align: center;
 }
 }
-.todo-section {
+.todo-app {
   display: block;
   width: 500px;
   margin: 0 auto 0;
-}
-.task {
+ }
+.list-item__label-task, .list-item__input-task, .add-task-section__input{
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
-.task-row-wrapper {
+.add-task-section__task-wrapper {
   display: flex;
 }
 ul {
@@ -118,12 +121,12 @@ li > label {
 li >  input[type="text"] {
   width: 226px
 }
-button.delete img {
+button.list-item__button-delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+button.list-item__button-delete img:hover {
   transform: rotateZ(0);
 }
 
