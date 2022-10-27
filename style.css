@@ -56,7 +56,8 @@
 }
 
 .list-item__input-task, 
-.list-item__button {
+.list-item__button,
+.add-task-section__input {
   outline: none;
 }
 
@@ -71,7 +72,8 @@
   cursor: pointer;
 }
 
-.list-item__button:hover {
+.list-item__button:hover,
+.add-task-section__button:hover {
   color: #3a3a3a;
 }
 
@@ -140,7 +142,7 @@
   width: 226px;
 }
 
-.list__list-item >  input[type="text"] {
+.list__list-item > input[type="text"] {
   width: 226px;
 }
 
