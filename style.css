@@ -33,7 +33,7 @@
   margin: 0 auto 0;
  }
 
-.list-item__label-task, .list-item__input-task, .add-task-section__input{
+.list-item__label-task, .list-item__input-task, .add-task-section__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1
@@ -54,7 +54,7 @@
 }
 
 .list-item__input-task, 
-.list-item__button{
+.list-item__button {
   outline:none;
 }
 
@@ -85,7 +85,7 @@
 }
 
 .add-task-section__input,
-.list-item__input-task  {
+.list-item__input-task {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
