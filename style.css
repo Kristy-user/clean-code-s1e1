@@ -4,6 +4,7 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .header {
   width: 500px;
   margin: 0 auto;
@@ -14,39 +15,49 @@
 .header img {
   width: 100%;
 }
+
 .header .header__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.header { text-align: center;
+
+.header {
+   text-align: center;
 }
+
 }
 .todo-app {
   display: block;
   width: 500px;
   margin: 0 auto 0;
  }
+
 .list-item__label-task, .list-item__input-task, .add-task-section__input{
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
+
 .add-task-section__task-wrapper {
   display: flex;
 }
+
 .current-task-section__list, 
 .completed-task-section__list {
   margin:0;
   padding: 0px;
 }
+
 .list-item, .title {
   list-style:none;
 }
+
 .list-item__input-task, 
 .list-item__button{
   outline:none;
 }
+
 .list-item__button,
 .add-task-section__button {
   background: none;
@@ -57,9 +68,11 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .list-item__button:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .title {
   color: #333;
@@ -70,6 +83,7 @@
   margin: 0;
   text-transform: uppercase;
 }
+
 .add-task-section__input,
 .list-item__input-task  {
   margin: 0;
@@ -83,6 +97,7 @@
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .list-item__input-task:focus,
 .add-task-section__input:focus {
   color: #333;
@@ -93,6 +108,7 @@
   display: block;
   margin: 0 0 20px;
 }
+
 .todo-app__add-task-section input#new-task {
   width: 318px;
 }
@@ -102,11 +118,11 @@
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .list__list-item > * {
   vertical-align: middle;
 }
@@ -114,20 +130,24 @@
 .list__list-item > input[type="checkbox"] {
   margin: 0 10px;
 }
+
 .list__list-item > label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .list__list-item >  input[type="text"] {
   width: 226px
 }
+
 .list-item__button.button-delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .list-item__button.button-delete img:hover {
   transform: rotateZ(0);
 }
